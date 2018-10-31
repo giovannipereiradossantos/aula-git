@@ -1,0 +1,34 @@
+comandos para iniciar git
+
+1º cd\ - pasta raiz
+
+2º md aula - cria pasta
+
+3º cd aula - acessa a pasta
+
+4º git init - inicilizar, novo repositorio, gerenciamneto de arquivo
+
+5º git add* -  adicionar todos os arquivos
+
+6º git commit - m "1 commit" nome que deseja
+
+se aparecer esse erro:
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Giovanni@DESKTOP-K0TNUP7.(none)')
+
+seguinte comando:
+
+  git config --global user.email "you@example.com", digita email entre aspas
+  git config --global user.name "Your Name", digita seu nome entre aspas
+
+7º git -m 1ºgit commit
